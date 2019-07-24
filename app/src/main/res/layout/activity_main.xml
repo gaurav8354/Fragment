@@ -23,7 +23,7 @@
     android:layout_height="0dp"
     android:layout_weight="0.5"
     android:orientation="horizontal"
-    android:weightSum="3"
+    android:weightSum="4"
     >
     <Button
         android:layout_width="0dp"
@@ -49,6 +49,16 @@
         android:text="c"
 
         android:id="@+id/button_main_C"
+        android:layout_margin="4dp"
+        />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="c"
+
+        android:id="@+id/button_main_D"
         android:layout_margin="4dp"
         />
 

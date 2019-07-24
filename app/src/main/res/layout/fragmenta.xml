@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="5"
     android:orientation="vertical"
@@ -15,10 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
-        android:text="Dubby text B"
+        android:text="Dubby A"
         android:gravity="center"
         android:textColor="#000000"
-        android:id="@+id/tv_fragment_b"
+        android:id="@+id/tv_fragment_a"
         />
     <View
         android:layout_width="match_parent"
@@ -29,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
-        android:id="@+id/et_fragmentb"
+        android:id="@+id/et_fragmenta"
         />
     <View
         android:layout_width="match_parent"
@@ -40,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
-        android:text="set text to fragment a"
-        android:id="@+id/button_fragmentb"
+        android:text="set text to fragment b"
+        android:id="@+id/button_fragmenta"
         />
 </LinearLayout>
